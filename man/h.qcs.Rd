@@ -8,9 +8,16 @@
 \usage{
 h.qcs(x, ...)
 
-\method{h.qcs}{default}(x, var.index = 1, replicate.index = 2,
-  material.index = 3, laboratory.index = 4, data.name = NULL,
-  alpha = 0.05, ...)
+\method{h.qcs}{default}(
+  x,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL,
+  alpha = 0.05,
+  ...
+)
 
 \method{h.qcs}{lab.qcdata}(x, alpha = 0.05, ...)
 }

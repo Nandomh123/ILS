@@ -8,12 +8,20 @@
 \usage{
 lab.aov(x, ...)
 
-\method{lab.aov}{default}(x, var.index = 1, replicate.index = 2,
-  material.index = 3, laboratory.index = 4, data.name = NULL,
-  level = 0.95, plot = FALSE, pages = 0, ...)
+\method{lab.aov}{default}(
+  x,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL,
+  level = 0.95,
+  plot = FALSE,
+  pages = 0,
+  ...
+)
 
-\method{lab.aov}{lab.qcdata}(x, level = 0.95, plot = FALSE, pages = 0,
-  ...)
+\method{lab.aov}{lab.qcdata}(x, level = 0.95, plot = FALSE, pages = 0, ...)
 }
 \arguments{
 \item{x}{Object lab.qcdata.}
