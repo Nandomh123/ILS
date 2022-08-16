@@ -3,16 +3,10 @@ template:
   bootstrap: 5
   bootswatch: minty
 
-
 navbar:
   title: ~
   left:
-    - text:
-      icon: fa-home
     - text: Functions and Data
       href: reference/index.html
-
     - text: Material (Es)
-      menu:
-      - text: Gráficos de control de la calidad univariantes
-        href: articles/FDA.html
+      href: articles/FDA.html
