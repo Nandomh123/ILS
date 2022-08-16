@@ -9,6 +9,8 @@ navbar:
   left:
     - text:
       icon: fa-home
+    - text:
+      icon: fa-info
       href: index.html
     - text: Functions and Data
       href: reference/index.html
