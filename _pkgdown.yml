@@ -1,4 +1,115 @@
 url: https://nandomh123.github.io/ILS/
+
 template:
   bootstrap: 5
+  bootswatch: cosmo
 
+reference:
+  - title: "Quality Control Review"
+    contents:
+      - qcr
+  - title: "Control Charts"
+  - title: "Independence univariate parametric"
+    desc: >
+     These functions are used to compute the quality control statistics for the
+     different univariate control charts for variables and attributes. The
+     control charts consider are: Xbar chart, R chart, S chart, I chart,
+     p chart, np chart, c chart, u chart, CUSUM chart, EWMA chart.
+    contents:
+      - qcd
+      - qcs
+      - qcs.xbar
+      - qcs.R
+      - qcs.S
+      - qcs.one
+      - qcs.p
+      - qcs.np
+      - qcs.c
+      - qcs.u
+      - qcs.cusum
+      - qcs.ewma
+      - plot.qcs
+  - title: "Independence non parametric"
+    desc: >
+     These functions are used to compute the quality control statistics for
+     nonparametric control charts based on data depth. The
+     control charts consider are: Q chart, r chart, S chart.
+    contents:
+      - npqcd
+      - npqcs
+      - npqcs.Q
+      - npqcs.r
+      - npqcs.S
+      - plot.npqcs
+  - title: "Independence multivariate parametric"
+    desc: >
+     These functions are used to compute the quality control statistics for the
+     different multivariate control charts. The control charts consider are:
+     MCUSUM chart, MEWMA chart, Hotelling T^2 chart.
+    contents:
+      - mqcd
+      - mqcs
+      - mqcs.mcusum
+      - mqcs.mewma
+      - mqcs.t2
+      - plot.mqcs
+  - title: "Independence functional parametric"
+    desc: >
+     These functions are used to compute the quality control statistics for the
+     Phase I and Phase II control charts.
+    contents:
+      - fdqcd
+      - fdqcs.depth
+      - fdqcs.rank
+      - plot.fdqcd
+      - plot.fdqcs.depth
+      - plot.fdqcs.rank
+  - title: "Process Capability Analysis"
+    desc: >
+     These functions are used to perform process capability analysis and
+     capability indices.
+    contents:
+      - qcs.cp
+      - qcs.pcr
+      - qcs.hat.cpm
+      - qcs.cpn
+      - qcs.ca
+      - mstate.control
+      - npstate.control
+      - state.control
+      - mqcs.add
+      - npqcs.add
+      - qcs.add
+  - title: "Datasets"
+    desc: "Databases used in the package"
+    contents:
+      - archery1
+      - circuit
+      - counters
+      - dowel1
+      - employment
+      - orangejuice
+      - oxidation
+      - pcmanufact
+      - pistonrings
+      - plates
+      - presion
+
+navbar:
+  title: ~
+  left:
+    - text: Functions and Data
+      href: reference/index.html
+    - text: Material (Es)
+      menu:
+      - text: Gráficos de control de la calidad univariantes
+      - text: Gráficos de control de la calidad no-paramétricos
+      - text: Gráficos de Control de la calidad Multivariante
+      - text: Análisis de capacidad de un proceso
+      - text: Material Extra
+    - text: Material (En)
+      menu:
+      - text: Statisics with qcr package
+    - text: Changelog
+      menu:
+      - text: Cambios
