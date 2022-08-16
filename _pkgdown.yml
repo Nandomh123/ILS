@@ -12,9 +12,9 @@ navbar:
     - text:
       icon: fa-home
     - text: Functions and Data
-      href: docs/reference/index.html
+      href: reference/index.html
 
     - text: Material (Es)
       menu:
       - text: Gráficos de control de la calidad univariantes
-        href: docs/articles/FDA.html
+        href: articles/FDA.html
