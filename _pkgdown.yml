@@ -51,6 +51,7 @@ reference:
 navbar:
   title: ~
   left:
+    - text:
     - href: fa-home
     - text: Functions and Data
       href: reference/index.html
