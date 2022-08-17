@@ -51,15 +51,25 @@ reference:
 navbar:
   title: ~
   left:
+    - href: fa-home
     - text: Functions and Data
       href: reference/index.html
     - text: Material (Es)
-      href: articles/FDA.html
-    - text: changes
       menu:
-      - text: Version Anterior
+      - text: Univariate Data Analysis
+        href: articles/FDA.html
+      - text: Functional Data Analysis (FDA)
         href: articles/univariante.html
-  right:
+    - text: Scientific articles
+      menu:
+      - text: Articles
+      - text: Books
+      - text: Thesis
+    - text: Webinar
+      menu:
+      - text: Presentation to the ILS package
+    - text: Changes
+      href: news/index.html
 
 
 
