@@ -3,6 +3,51 @@ template:
   bootstrap: 5
   bootswatch: minty
 
+development:
+  mode: auto
+
+reference:
+  - title: "Interlaboratory Studies (ILS)"
+    contents:
+      - ILS
+  - title: "Univariate Data Analysis"
+    desc: >
+     The ILS package .
+    contents:
+      - cochran.test
+      - func.ils.formula
+      - grubbs.test
+      - h.qcs
+      - k.qcs
+      - lab.aov
+      - lab.qcdata
+      - lab.qcs
+      - plot.lab.qcdata
+      - plot.lab.qcs
+
+  - title: "Functional Data Analysis (FDA)"
+    desc: >
+     These functions are used to compute the quality control statistics for
+     nonparametric control charts based on data depth. The
+     control charts consider are: Q chart, r chart, S chart.
+    contents:
+      - boot.sim.set
+      - ils.fqcdata
+      - ils.fqcs
+      - mandel.fqcs
+      - outliers.ils
+      - plot.ils.fqcdata
+      - plot.ils.fqcs
+      - plot.mandel.fqcs
+
+  - title: "Datasets"
+    desc: "Databases used in the package"
+    contents:
+      - DSC
+      - Glucose
+      - TG
+      - IDT
+
 navbar:
   title: ~
   left:
@@ -10,3 +55,13 @@ navbar:
       href: reference/index.html
     - text: Material (Es)
       href: articles/FDA.html
+    - text: changes
+      menu:
+      - text: Version Anterior
+        href: articles/univariante.html
+  right:
+
+
+
+
+
