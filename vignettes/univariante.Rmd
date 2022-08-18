@@ -21,6 +21,23 @@ knitr::opts_chunk$set(
 )
 ```
 
+# Interlaboratory Studies: Standard Approach
+
+The ILS package provides two groups of functions made to detect outlying
+individual results (outlying replicates) and outlying laboratories: both for the
+scalar and the functional cases (Table 1). The ILS package offers graphical and
+analytical procedures (statistical hypothesis test) for this purpose.
+
+
+
+
+<embed src="book/ILSArticule.pdf" type="application/pdf" width="100%" height="600px" />
+
+
 ```{r setup}
 library(ILS)
 ```
+
+
+
+

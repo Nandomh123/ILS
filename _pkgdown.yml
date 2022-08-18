@@ -62,6 +62,7 @@ navbar:
     - text: Scientific articles
       menu:
       - text: Articles
+        href: articles/InterlaboratoryStudies.html
       - text: Books
       - text: Thesis
     - text: Webinar

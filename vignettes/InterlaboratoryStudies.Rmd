@@ -1,0 +1,58 @@
+---
+title: "<center><span style='color: green'>Interlaboratory Studies (ILS)</span>"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{InterlaboratoryStudies}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+<div class="text-justify">
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# `r colorize("Standard Approach","#1CA666")`
+
+The ILS package provides two groups of functions made to detect outlying
+individual results (outlying replicates) and outlying laboratories: both for the
+scalar and the functional cases (Table 1). The ILS package offers graphical and
+analytical procedures (statistical hypothesis test) for this purpose. 
+
+<br>
+
+<center> **Table 1**: Functions incorporated to the ILS package to perform Interlaboratory Studies with a scalar and functional approach. </center>
+
+|                 | **Technique**  | **Function**   | **Description**                                         |
+|:----------------|:------------------|:--------------------|:------------------------------------------------|
+|**Scalar**       | Plot              |`h.qcs, k.qcs`       | Mander's $h$ and $k$ statistics                 |
+|**approach**     | Test              |`test.cochran`       | Cochran test                                    |
+|                 |                   |`test.grubbs`        | Grubbs test                                     |
+|                 |                   |`lab.aov`            | ANOVA                                           |
+|**Funtional**    | Plot              |`h.fqcs, k.fqcs`     | Mandel's H(x) y K(x) functional statistics      |
+|**approach**     | Test              |`mandel.fqcs`        | Mandel's functional test                        |
+
+<br>
+
+<justify> As above mentioned, among the methodologies used to evaluate the consistency of laboratory results, we must highlight the r&R studies, which quantify the variability between laboratories (reproducibility) and variability between results (repeatability). The repeatability is the variability between the results of the independent tests obtained for each individual laboratory, i.e. the evaluation of the variability produced by the measurement system since the results are obtained by a single operator in each laboratory and in a short interval of time. On the other hand, the reproducibility refers to the variability between the re- sults of individual tests obtained in different laboratories, allowing to determine the bias.
+
+# `r colorize("Standard Approach1","#1CA666")`
+
+# `r colorize("Standard Approach2","#1CA666")`
+
+```{r setup}
+library(ILS)
+```
