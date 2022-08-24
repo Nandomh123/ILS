@@ -1,8 +1,8 @@
 ---
-title: "<center><span style='color:green;'>Interlaboratory Studies (ILS)</span>"
+title: "Interlaboratory Studies (ILS)"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{InterlaboratoryStudies}
+  %\VignetteIndexEntry{Interlaboratory Studies (ILS)}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -56,9 +56,9 @@ knitr::opts_chunk$set(
 <p style="text-align:justify;">Accordingly with the repeatability and reproducibility concepts, Mandel's $h$ and $k$ statistics are used in ILS to detect laboratories that provide inconsistent results. The h statistic explains the variability between the laboratories, that is, estimates the bias, which is the difference of the means of each laboratory with respect to the global mean, while the k statistic estimates the variability within the laboratories, comparing the repeatability corresponding to each laboratory. The decision rule for detecting whether a laboratory is inconsistent is based on the comparison between the value of the $h$ or $k$ statistic and the critical value calculated with a significance level of $0.5%$, which is the one recommended by ASTM E-691.</p>
 
 <br>
-
 <p style="text-align:justify;">On the other hand, the `ILS` package performs the Cochran test to examine the consistency within a laboratory, whereas the Grubbs test is commonly used to examine consistency between laboratories. The Grubbs test can also be used as a consistency test for the results obtained in a laboratory using identical materials. These tests are recommended by ISO 5725-2.</p>
 
+<br>
 
 ## `r colorize("3.1. Consistency tests","#1CA666")`
 
@@ -95,6 +95,8 @@ In Table(2), the one-way ANOVA approach results are shown, with
 \end{equation}
 
 <p style="text-align:justify;">There are two possible scenarios in which the presence of outliers can be evaluated: the first is that the results of one laboratory deviates from the others in terms of precision, that is, when the measurements made by a laboratory differ signficantly with respect to the measurements obtained by other laboratories. The second scenario is related with the identification of outliers in a laboratory for a certain level. The statistics and tests recommended by ISO 5725-2 and ASTM E-691 are described below.</p>
+
+<br>
 
 ### `r colorize("3.1.1. Mandel's h statistic and Grubbs test","#1CA666")`
 
@@ -158,8 +160,10 @@ g_{n;1-\alpha}\approx \frac{(n-1)t_{n-2;1-\frac{\alpha}{2}}}{\sqrt{n\left(n-2+t_
 
 <p style="text-align:justify;">If a laboratory is identified as an outlier, after applying the $h$ statistic and the Grubbs test to different levels within a laboratory, this is an evidence of the presence of a laboratory high bias (due to a high systematic error in calibration, or errors in the equations when the results were computed).</p>
 
+<br>
 
+### *`r colorize("3.1.2. Mandel's k statistic and Cochran test","#1CA666")`*
 
-```{r setup}
+```{r setup, warning=FALSE, message=FALSE}
 library(ILS)
 ```

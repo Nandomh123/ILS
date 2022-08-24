@@ -2,6 +2,10 @@ url: https://nandomh123.github.io/ILS/
 template:
   bootstrap: 5
   bootswatch: minty
+  bslib:
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
 
 development:
   mode: auto
@@ -51,6 +55,9 @@ reference:
 navbar:
   title: ~
   left:
+    - text: Home
+      icon: fa-home
+      href: reference/index.html
     - text: Functions and Data
       href: reference/index.html
     - text: Material (Es)
@@ -67,11 +74,12 @@ navbar:
       - text: Thesis
     - text: Webinar
       menu:
-      - text: Presentation to the ILS package
+      - text: QCR and ILS packages
+        href: articles/Conferencia.html
     - text: Changes
       href: news/index.html
 
-
-
-
-
+authors:
+  RStudio:
+    href: https://www.rstudio.com
+    html: <img src='https://www.tidyverse.org/rstudio-logo.svg' alt='RStudio' width='72' />

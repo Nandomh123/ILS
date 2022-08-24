@@ -1,0 +1,21 @@
+---
+title: "Books"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Books}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+<body>
+  <iframe src = "C:/Users/Hp/Desktop/Tratamientos de R/Paquetes/ILS/Book/ILSarticle.pdf"></iframe>
+</body>
+
+
