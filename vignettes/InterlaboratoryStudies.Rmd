@@ -29,7 +29,12 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-<img src="man/figures/Encabezado_Article.png"/>
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth]{reference/figures/Encabezado_Article.png}
+\caption{Ejemplar de tigre de Bengala}
+\label{fig:tigre}
+\end{figure}
 
 
 
