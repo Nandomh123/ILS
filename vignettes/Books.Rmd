@@ -35,7 +35,7 @@ knitr::opts_chunk$set(
 # `r colorize("Nuevas aportaciones del análisis de Datos Funcionales en el control de la calidad","#1CA666")`
 <br>
 
-<object data="199451588.pdf" height="50%" width="100%"></object>
+<object data="199451588.pdf" height="100%" width="100%"></object>
 
 <br>
 
@@ -43,6 +43,15 @@ knitr::opts_chunk$set(
 
 <br>
 
-<object data="génesis_moreno_y_cristian_solórzano_-_trabajo_con_correciones.pdf" height="50%" width="100%"></object>
+<object data="génesis_moreno_y_cristian_solórzano_-_trabajo_con_correciones.pdf" height="100%" width="100%"></object>
+
+<br>
+
+
+# `r colorize("Aplicación de una nueva metodológia basada en el método Bootstrap para la detección de resultados atípicos en estudios interlaboratorios: Un caso práctico en laboratorios clínicos","#1CA666")`
+
+<br>
+
+<object data="T-ESPE.pdf" height="100%" width="100%"></object>
 
 <br>
