@@ -29,6 +29,11 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+<img src="man/figures/Encabezado_Article.png" width="100" />
+<img src="man/figures/logo.png" align="right" alt="" width="100" />
+
+
+
 
 # `r colorize("3. Standard Approach","#1CA666")`
 
