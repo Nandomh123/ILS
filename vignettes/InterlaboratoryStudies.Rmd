@@ -29,14 +29,6 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.5\textwidth]{reference/figures/Encabezado_Article.png}
-\caption{Ejemplar de tigre de Bengala}
-\label{fig:tigre}
-\end{figure}
-
-
 
 
 # `r colorize("3. Standard Approach","#1CA666")`
