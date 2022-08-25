@@ -1,0 +1,35 @@
+---
+title: "Artículos"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Artículos}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 0.618,
+  fig.width = 5,
+  out.width = "60%",
+  fig.align = "center",
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# `r colorize("3. Standard Approach","#1CA666")`
+
+<object data="ILSarticle.pdf" height="50%" width="100%"></object>

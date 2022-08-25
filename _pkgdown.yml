@@ -63,15 +63,15 @@ navbar:
     - text: Material (Es)
       menu:
       - text: Univariate Data Analysis
-        href: articles/FDA.html
+        href: articles/InterlaboratoryStudies.html
       - text: Functional Data Analysis (FDA)
         href: articles/univariante.html
     - text: Scientific articles
       menu:
       - text: Articles
-        href: articles/InterlaboratoryStudies.html
-      - text: Books
+        href: articles/Articulos.html
       - text: Thesis
+        href: articles/Books.html
     - text: Webinar
       menu:
       - text: QCR and ILS packages

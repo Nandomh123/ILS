@@ -30,7 +30,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
 # `r colorize("3. Standard Approach","#1CA666")`
 
 <p style="text-align:justify;"> The ILS package provides two groups of functions made to detect outlying individual results (outlying replicates) and outlying laboratories: both for the scalar and the functional cases (Table 1). The ILS package offers graphical and analytical procedures (statistical hypothesis test) for this purpose.</p>

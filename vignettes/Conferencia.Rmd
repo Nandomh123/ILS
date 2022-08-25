@@ -1,7 +1,6 @@
 ---
 title: "Conferencia"
 output: rmarkdown::html_vignette
-
 vignette: >
   %\VignetteIndexEntry{Conferencia}
   %\VignetteEngine{knitr::rmarkdown}
@@ -44,7 +43,10 @@ embed_youtube('mhUJh5Wz2X8', width=775, height=550)
 
 # `r colorize("Statistical quality control with QCR and ILS packages.","#1CA666")`
 
-<embed src="Book/ILSarticle.pdf" type="application/pdf" width="100%" height="100%" />
+
+```{r}
+
+```
 
 
 # `r colorize("Statistical quality control with QCR and ILS packages.","#1CA666")`

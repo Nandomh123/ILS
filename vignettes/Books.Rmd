@@ -7,15 +7,42 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 0.618,
+  fig.width = 5,
+  out.width = "60%",
+  fig.align = "center",
   collapse = TRUE,
   comment = "#>"
 )
 ```
+<br>
+<br>
 
-<body>
-  <iframe src = "C:/Users/Hp/Desktop/Tratamientos de R/Paquetes/ILS/Book/ILSarticle.pdf"></iframe>
-</body>
+# `r colorize("Nuevas aportaciones del análisis de Datos Funcionales en el control de la calidad","#1CA666")`
+<br>
 
+<object data="199451588.pdf" height="50%" width="100%"></object>
 
+<br>
+
+# `r colorize("Nueva metodología para la deteccion de resultados inconsistentes en estudios interlaboratorios utilizando análisis de datos funcionales ","#1CA666")`
+
+<br>
+
+<object data="génesis_moreno_y_cristian_solórzano_-_trabajo_con_correciones.pdf" height="50%" width="100%"></object>
+
+<br>
