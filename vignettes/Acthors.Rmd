@@ -15,14 +15,11 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-```{r, include = FALSE}
-# install.packages("magick")
-library(magick)
-```
+
 
 |                  |                            |  
 |:-----------------:|:---------------------------|
-|`r image_read(path = "MiguelFlores.PNG")`| Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). He has experience in Education and Higher Vocational Training, university and business in the field of Statistics & Machine Learning. Professor of Probability and Statistics at the National Polytechnic School. Member of the Multidisciplinary Research Group in Information Systems, Technology Management and Innovation (SIGTI) of the National Polytechnic School and the Group of Modeling, Optimization and Statistical Inference (MODES) of the University of La Coruña.</p> |
+| <img src="MiguelFlores.PNG"> | Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). He has experience in Education and Higher Vocational Training, university and business in the field of Statistics & Machine Learning. Professor of Probability and Statistics at the National Polytechnic School. Member of the Multidisciplinary Research Group in Information Systems, Technology Management and Innovation (SIGTI) of the National Polytechnic School and the Group of Modeling, Optimization and Statistical Inference (MODES) of the University of La Coruña.</p> |
 
 
 
