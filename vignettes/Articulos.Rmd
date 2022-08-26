@@ -34,6 +34,8 @@ knitr::opts_chunk$set(
 
 <object data="ILSarticle.pdf" width=775, height=550></object>
 
-### cite
+<br>
+
+### `r colorize("Cite","#1CA666")`
 
 <p style="text-align:justify;"> Flores, M., Fernández-Casal, R., Naya, S., Tarrío-Saavedra, J., & Bossano, R. (2018). ILS: An R package for statistical analysis in Interlaboratory Studies. Chemometrics and Intelligent Laboratory Systems, 181, 11-20.</p>

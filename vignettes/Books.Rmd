@@ -32,14 +32,19 @@ knitr::opts_chunk$set(
 <br>
 <br>
 
-# `r colorize("Nuevas aportaciones del análisis de Datos Funcionales en el control de la calidad","#1CA666")`
+# `r colorize("New Contributions of Functional Data Analysis in Statistical Process Control","#1CA666")`
 <br>
 
 <object data="199451588.pdf" width=775, height=550></object>
 
 <br>
 
-# `r colorize("Nueva metodología para la deteccion de resultados inconsistentes en estudios interlaboratorios utilizando análisis de datos funcionales ","#1CA666")`
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;">Sánchez, M. F. (2019). New Contributions of Functional Data Analysis in Statistical Process Control.</p>
+
+
+# `r colorize("New methodology for the detection of inconsistent results in interlaboratory studies using functional data analysis","#1CA666")`
 
 <br>
 
@@ -47,11 +52,20 @@ knitr::opts_chunk$set(
 
 <br>
 
+### `r colorize("Cite","#1CA666")`
 
-# `r colorize("Aplicación de una nueva metodológia basada en el método Bootstrap para la detección de resultados atípicos en estudios interlaboratorios: Un caso práctico en laboratorios clínicos","#1CA666")`
+<p style="text-align:justify;">Solorzano Maya, C. I., & Moreno Armijos, G. C. (2022). New methodology for the detection of inconsistent results in interlaboratory studies using functional data analysis (Bachelor's thesis, Quito: EPN, 2022).</p>
+
+# `r colorize("Application of a new methodology based on the Bootstrap method for the detection of atypical results in interlaboratory studies: A practical case in clinical laboratories","#1CA666")`
 
 <br>
 
 <object data="T-ESPE.pdf" width=775, height=550></object>
 
 <br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;">BOSSANO CAVE, J. R. (2019). VICE-RECTORATE FOR RESEARCH, INNOVATION AND TECHNOLOGY TRANSFER.</p>
+
+
