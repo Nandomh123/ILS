@@ -32,4 +32,4 @@ knitr::opts_chunk$set(
 
 # `r colorize("3. Standard Approach","#1CA666")`
 
-<object data="ILSarticle.pdf" height="100%" width="100%"></object>
+<object data="ILSarticle.pdf" width=775, height=550></object>
