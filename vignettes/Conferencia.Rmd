@@ -23,6 +23,7 @@ knitr::opts_chunk$set(
   dpi = 150,
   fig.asp = 0.618,
   fig.width = 5,
+  out.width = "60%",
   fig.align = "center",
   collapse = TRUE,
   comment = "#>"
@@ -40,7 +41,7 @@ library(vembedr)
 
 
 ```{r warning=FALSE,echo=FALSE}
-embed_youtube('mhUJh5Wz2X8', width=850, height=500)
+embed_youtube('mhUJh5Wz2X8', width=775, height=550)
 ```
 
 <br>
