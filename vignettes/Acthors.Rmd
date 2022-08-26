@@ -1,0 +1,22 @@
+---
+title: "About the authors"
+output: rmarkdown::html_vignette
+description: >
+  The bibliography of the authors who contributed to the development of the package that performs interlaboratory studies (ILS), with univariate and functional data, is presented below. 
+vignette: >
+  %\VignetteIndexEntry{About the authors}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+<img src="man/figures/MiguelFlores.PNG"
+     alt="La cabeza y el torso de un esqueleto de dinosaurio;
+           tiene una cabeza grande con dientes largos y afilados"
+     width="400"
+     height="341">

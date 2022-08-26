@@ -57,7 +57,7 @@ navbar:
   left:
     - text: Home
       icon: fa-home
-      href: reference/index.html
+      href: articles/Acthors.html
     - text: Functions and Data
       href: reference/index.html
     - text: Material (Es)
