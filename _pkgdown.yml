@@ -78,8 +78,3 @@ navbar:
         href: articles/Conferencia.html
     - text: Changes
       href: news/index.html
-
-authors:
-  RStudio:
-    href: https://www.rstudio.com
-    html: <img src='https://www.tidyverse.org/rstudio-logo.svg' alt='RStudio' width='72' />
