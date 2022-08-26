@@ -34,7 +34,15 @@ knitr::opts_chunk$set(
 
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mhUJh5Wz2X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{r, include = FALSE}
+install.packages("vembedr")
+library(vembedr)
+```
+
+
+```{r warning=FALSE,echo=FALSE}
+embed_youtube('mhUJh5Wz2X8', width=775, height=550)
+```
 
 <br>
 
