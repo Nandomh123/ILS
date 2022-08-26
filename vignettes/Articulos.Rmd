@@ -32,7 +32,7 @@ knitr::opts_chunk$set(
 
 # `r colorize("An R package for statistical analysis in Interlaboratory Studies","#1CA666")`
 
-<object data="ILSarticle.pdf" width=100></object>
+<object data="ILSarticle.pdf" width=775, height=550></object>
 
 <br>
 
