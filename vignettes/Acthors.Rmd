@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 ```{r, include = FALSE}
-install.packages("magick")
+# install.packages("magick")
 library(magick)
 ```
 
