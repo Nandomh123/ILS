@@ -2,10 +2,13 @@ pandoc: 2.14.2
 pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
+  Articulos: Articulos.html
+  Books: Books.html
+  Conferencia: Conferencia.html
   FDA: FDA.html
   InterlaboratoryStudies: InterlaboratoryStudies.html
   univariante: univariante.html
-last_built: 2022-08-19T03:25Z
+last_built: 2022-08-26T00:37Z
 urls:
   reference: https://nandomh123.github.io/ILS/reference
   article: https://nandomh123.github.io/ILS/articles
