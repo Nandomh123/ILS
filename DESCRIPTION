@@ -36,7 +36,7 @@ Author: Miguel Flores [aut, cre],
   Roberto Bossano [aut]
 Maintainer: Miguel Flores <ma.flores@outlook.com>
 Repository: CRAN
-RoxygenNote: 7.2
+RoxygenNote: 7.2.0
 Encoding: UTF-8
 NeedsCompilation: no
 Packaged: 2018-03-07 03:15:13 UTC; MiguelA

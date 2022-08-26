@@ -5,7 +5,7 @@
 \alias{ILS}
 \title{Interlaboratoty Study}
 \description{
-Interlaboratory Study (ILS)
+Interlaboratory Study
 }
 \details{
 It performs interlaboratory studies (ILS) to detect those laboratories that provide non-consistent results when comparing to others.
