@@ -34,7 +34,7 @@ knitr::opts_chunk$set(
 
 <br>
 
-```{r warning=FALSE,echo=FALSE}
+```{#r warning=FALSE,echo=FALSE}
 library(vembedr)
 embed_youtube('mhUJh5Wz2X8', width=775, height=550)
 ```
@@ -44,16 +44,7 @@ embed_youtube('mhUJh5Wz2X8', width=775, height=550)
 # `r colorize("Statistical quality control with QCR and ILS packages.","#1CA666")`
 
 
-```{r}
-
-```
-
 
 # `r colorize("Statistical quality control with QCR and ILS packages.","#1CA666")`
 
 
-
-
-```{r setup}
-library(ILS)
-```
