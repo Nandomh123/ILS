@@ -26,5 +26,5 @@ alt="R-CMD-check" /></a>
 <br>
 
 <p style="text-align:justify;"> Flores, M., Fernández-Casal, R., Naya, S., Tarrío-Saavedra, J., & Bossano, R. (2018). ILS: An R package for statistical analysis in interlaboratory studies.. *Chemometrics and Intelligent Laboratory Systems* , **181** , 11-20,[DOI](https://doi.org/10.1016/j.chemolab.2018.07.013) </p> 
-
+<br>
 
