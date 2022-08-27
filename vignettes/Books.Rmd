@@ -1,8 +1,8 @@
 ---
-title: "Degree work. "
+title: "Degree work"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Degree work. }
+  %\VignetteIndexEntry{Degree work}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
