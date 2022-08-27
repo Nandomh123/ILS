@@ -31,7 +31,7 @@ knitr::opts_chunk$set(
 ```
 <br>
 
-<p style="text-align:justify;">The methodology used to detect laboratories that provide inconsistent results, working simultaneously with different test materials, from the perspective of Univariate Data Analysis and Functional Data Analysis (FDA), can be found in the articles presented. </p>
+<p style="text-align:justify;">The methodology used to detect laboratories that provide inconsistent results, working simultaneously with different test materials, from the perspective of Univariate Data Analysis and Functional Data Analysis (FDA), can be found in the articles presented.</p>
 
 
 # `r colorize("An R package for statistical analysis in Interlaboratory Studies","#1CA666")`
