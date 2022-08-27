@@ -55,12 +55,12 @@ reference:
 navbar:
   title: ~
   left:
-    - text: Home
-      icon: fa-home
+    - text: Authors
+      icon: fa-user
       href: articles/Acthors.html
-    - text: Functions and Data
+    - text: Functions and Databases
       href: reference/index.html
-    - text: Material (Es)
+    - text: Materials
       menu:
       - text: Univariate Data Analysis
         href: articles/InterlaboratoryStudies.html
@@ -72,9 +72,9 @@ navbar:
         href: articles/Articulos.html
       - text: Thesis
         href: articles/Books.html
-    - text: Webinar
+    - text: Conferences
       menu:
       - text: QCR and ILS packages
         href: articles/Conferencia.html
-    - text: Changes
+    - text: Changelog
       href: news/index.html
