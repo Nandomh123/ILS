@@ -1,8 +1,8 @@
 ---
-title: "Conferences"
+title: "Conferences and presentations"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Conferences}
+  %\VignetteIndexEntry{Conferences and presentations}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

@@ -62,10 +62,14 @@ navbar:
       href: reference/index.html
     - text: Materials
       menu:
-      - text: Univariate Data Analysis
+      - text: Databases
         href: articles/InterlaboratoryStudies.html
+      - text: Univariate Data Analysis
+        href: articles/univariante.html
       - text: Functional Data Analysis (FDA)
         href: articles/univariante.html
+      - text: Conclusions
+        href: articles/Conslusions.html
     - text: Scientific articles
       menu:
       - text: Articles
