@@ -1,5 +1,5 @@
 
-# <span style="color: green"> About ILS package </span> <img src="man/figures/logo1.PNG" align="right" alt="" width="100" />
+# <span style="color: green"> About ILS package </span> <img src="man/figures/logo1.PNG" align="right" alt="" width=150, height=150 />
 
 <!-- badges: start -->
 <a href="https://cran.r-project.org/package=pkgdown"
