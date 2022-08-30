@@ -21,9 +21,10 @@ colorize <- function(x, color) {
 knitr::opts_chunk$set(
   dev = "png",
   dpi = 150,
-  fig.asp = 0.618,
-  fig.width = 5,
-  out.width = "60%",
+  fig.asp = 0.98,
+  fig.width = 9,
+  fig.height = 6,
+  out.width = "100%",
   fig.align = "center",
   collapse = TRUE,
   comment = "#>"
@@ -52,6 +53,7 @@ data("Glucose", package = "ILS")
 <p style="text-align:justify;"> The first step to perform an analysis with the `ILS` package consist on using the function `lab.qcdata()` (quality control data) that receives a data.frame as an argument. The first column of the data frame must contain the response variable, the second column accounts for the index of repetition for each laboratory, the third column includes the index of the material at which the test was performed, while the fourth column includes the index of the laboratory where the procedure was performed.</p>
 
 
+<<<<<<< HEAD
 <p style="text-align:justify;"> Afterward, the `qcdata` object, corresponding to the `lab.qcdata()` class, is developed. The descriptive statistics information of the dataset can be summarized by using the `summary()` function.</p>
 
 ```{r warning=FALSE,message=FALSE}
@@ -120,7 +122,11 @@ legend = TRUE,x.co = 20, y.co = 90)
 
 <p style="text-align:justify;">The `plot()` function creates a panel with four graphs, in the first row we have the means and functional variances for each laboratory, while in the second row the mean and global functional variance are plotted. Figure 4, shows the different functional means and functional variances for each laboratory, as well as the overall mean and the overall variance corresponding to the complete `TG` dataset.</p>
 
-```{r eval=FALSE,warning=FALSE,message=FALSE, fig.align='center'}
+```{r warning=FALSE,message=FALSE, fig.align='center'}
 plot(fqcstat, xlab = xlab, ylab = ylab)
 ```
 <center> __Figure 4__: Functional descriptive statistics: functional means and functional variances for each laboratory as well as the overall functional mean and the overall functional variance corresponding to the `TG` curves obtained from calcium oxalate. </center>
+
+<p style="text-align:justify;"> Afterward, the qcdata object, corresponding to the `lab.qcdata()` class, is developed. The descriptive statistics information of the dataset can be summarized by using the `summary()` function. Figure 1, shows the results of all laboratories.</p>
+
+
