@@ -141,7 +141,6 @@ In order to access this dataset, the <code>ILS</code> package installing and loa
 <p style="text-align:justify;">
 The first step to perform an analysis with the <code>ILS</code> package consist on using the function <code><a href="../reference/lab.qcdata.html">lab.qcdata()</a></code> (quality control data) that receives a data.frame as an argument. The first column of the data frame must contain the response variable, the second column accounts for the index of repetition for each laboratory, the third column includes the index of the material at which the test was performed, while the fourth column includes the index of the laboratory where the procedure was performed.
 </p>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <p style="text-align:justify;">
 Afterward, the <code>qcdata</code> object, corresponding to the <code><a href="../reference/lab.qcdata.html">lab.qcdata()</a></code> class, is developed. The descriptive statistics information of the dataset can be summarized by using the <code><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary()</a></code> function.
 </p>
@@ -158,7 +157,7 @@ Afterward, the <code>qcdata</code> object, corresponding to the <code><a href=".
 <span><span class="co">#&gt;                                      (Other):30</span></span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">qcdata</span>, ylab <span class="op">=</span> <span class="st">"Laboratory"</span>, xlab <span class="op">=</span> <span class="st">"Glucose concentration in blood"</span><span class="op">)</span></span></code></pre></div>
-<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-5-1.png" width="80%" style="display: block; margin: auto;"><center>
+<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-5-1.png" width="100%" height="70%" style="display: block; margin: auto;"><center>
 <strong>Figure 1:</strong> Measurements of glucose concentration in blood used to control diabetes.
 </center>
 <p><br></p>
@@ -209,7 +208,7 @@ The <code>qcdata</code> object uses the <code><a href="../reference/lab.qcs.html
 <span><span class="co">#&gt; E 294.49208 2.8067799 3.934974 2.6931364 4.192334</span></span></code></pre></div>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">qcstat</span>, ylab <span class="op">=</span> <span class="st">'Material'</span>, xlab <span class="op">=</span> <span class="st">'Desviations'</span><span class="op">)</span></span></code></pre></div>
-<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-7-1.png" width="80%" style="display: block; margin: auto;"><center>
+<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-7-1.png" width="100%" height="70%" style="display: block; margin: auto;"><center>
 <strong>Figure 2</strong>: Measures of variability for each material obtained from the results of all the laboratories.
 </center>
 <p style="text-align:justify;">
@@ -253,7 +252,7 @@ To built an object of class <code>ils.fqcdata</code>, first we defined the grid 
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">fqcdata</span>, main <span class="op">=</span> <span class="va">main</span>, xlab <span class="op">=</span> <span class="va">xlab</span> , ylab <span class="op">=</span> <span class="va">ylab</span>,</span>
 <span>legend <span class="op">=</span> <span class="cn">TRUE</span>,x.co <span class="op">=</span> <span class="fl">20</span>, y.co <span class="op">=</span> <span class="fl">90</span><span class="op">)</span></span></code></pre></div>
-<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-9-1.png" width="80%" style="display: block; margin: auto;"><center>
+<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-9-1.png" width="100%" height="70%" style="display: block; margin: auto;"><center>
 <strong>Figure 3</strong>: TG curves obtained from calcium oxalate.
 </center>
 <p style="text-align:justify;">
@@ -261,7 +260,7 @@ The <code><a href="https://rdrr.io/r/graphics/plot.default.html" class="external
 </p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">fqcstat</span>, xlab <span class="op">=</span> <span class="va">xlab</span>, ylab <span class="op">=</span> <span class="va">ylab</span><span class="op">)</span></span></code></pre></div>
-<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-10-1.png" width="80%" style="display: block; margin: auto;"><center>
+<img src="InterlaboratoryStudies_files/figure-html/unnamed-chunk-10-1.png" width="100%" height="70%" style="display: block; margin: auto;"><center>
 <strong>Figure 4</strong>: Functional descriptive statistics: functional means and functional variances for each laboratory as well as the overall functional mean and the overall functional variance corresponding to the <code>TG</code> curves obtained from calcium oxalate.
 </center>
 <p style="text-align:justify;">
