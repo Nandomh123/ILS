@@ -33,9 +33,7 @@ reference:
 
   - title: "Functional Data Analysis (FDA)"
     desc: >
-     These functions are used to compute the quality control statistics for
-     nonparametric control charts based on data depth. The
-     control charts consider are: Q chart, r chart, S chart.
+     FDA
     contents:
       - boot.sim.set
       - ils.fqcdata
