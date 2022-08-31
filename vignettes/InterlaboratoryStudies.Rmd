@@ -1,8 +1,8 @@
 ---
-title: "Databases"
+title: "Examples ILS"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Databases}
+  %\VignetteIndexEntry{Examples ILS}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
