@@ -60,7 +60,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdown-materials">
     <a class="dropdown-item" href="../articles/InterlaboratoryStudies.html">Databases</a>
     <a class="dropdown-item" href="../articles/univariante.html">Univariate Data Analysis</a>
-    <a class="dropdown-item" href="../articles/univariante.html">Functional Data Analysis (FDA)</a>
+    <a class="dropdown-item" href="../articles/FDA.html">Functional Data Analysis (FDA)</a>
     <a class="dropdown-item" href="../articles/Conslusions.html">Conclusions</a>
   </div>
 </li>
@@ -313,7 +313,7 @@ If a laboratory is identified as an outlier, after applying the <span class="mat
 </div>
 <div class="section level4">
 <h4 id="mandels-k-statistic-and-cochran-test">
-<em><span style="color: #1CA666;">2.1.2. Mandel’s k statistic and Cochran test</span></em><a class="anchor" aria-label="anchor" href="#mandels-k-statistic-and-cochran-test"></a>
+<span style="color: #1CA666;">2.1.2. Mandel’s k statistic and Cochran test</span><a class="anchor" aria-label="anchor" href="#mandels-k-statistic-and-cochran-test"></a>
 </h4>
 <p style="text-align:justify;">
 Let <span class="math inline">\((S_1^2, S_2^2,\ldots, S_L^2)\)</span> be a series of <span class="math inline">\(L\)</span> sample variances with each one based on <span class="math inline">\(n\)</span> observed values. Under the assumption that the observed values <span class="math inline">\(X_{ij}: j=1,2,\ldots,L; ~ i=1,2,\ldots,n\)</span> are realizations of random variables <span class="math inline">\(X_{ij}\)</span> identically and independently distributed according to a normal distribution <span class="math inline">\(N(\mu_i, \sigma^2)\)</span> for each <span class="math inline">\(j\)</span>, the sample variances <span class="math inline">\(S_j^2: j = 1,\ldots,L\)</span> divided by their expectation <span class="math inline">\(\sigma^2\)</span> follow a <span class="math inline">\(\chi^2/v\)</span> with <span class="math inline">\(v = n − 1\)</span> degrees of freedom. Mandel’s k statistic is defined by:
@@ -431,7 +431,7 @@ The following statements creates a <code><a href="../reference/k.qcs.html">k.qcs
 <span><span class="va">k</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/k.qcs.html">k.qcs</a></span><span class="op">(</span><span class="va">qcdata</span>, alpha <span class="op">=</span> <span class="fl">0.005</span><span class="op">)</span></span></code></pre></div>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">k</span><span class="op">)</span></span></code></pre></div>
-<p><img src="univariante_files/figure-html/unnamed-chunk-3-1.png" width="60%" style="display: block; margin: auto;"></p>
+<p><img src="univariante_files/figure-html/unnamed-chunk-3-1.png" width="100%" height="70%" style="display: block; margin: auto;"></p>
 <p style="text-align:justify;">
 </p>
 <center>
@@ -490,7 +490,7 @@ We proceeded to use the functions <code><a href="../reference/h.qcs.html">h.qcs(
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/mflores72000/ILS/" class="external-link">ILS</a></span><span class="op">)</span></span>
 <span><span class="va">h</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/h.qcs.html">h.qcs</a></span><span class="op">(</span><span class="va">qcdata</span>, alpha <span class="op">=</span> <span class="fl">0.005</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">h</span><span class="op">)</span></span></code></pre></div>
-<p><img src="univariante_files/figure-html/unnamed-chunk-5-1.png" width="60%" style="display: block; margin: auto;"></p>
+<p><img src="univariante_files/figure-html/unnamed-chunk-5-1.png" width="100%" height="70%" style="display: block; margin: auto;"></p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">h</span><span class="op">)</span></span>
 <span><span class="co">#&gt; </span></span>
