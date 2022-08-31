@@ -127,6 +127,8 @@ plot(fqcstat, xlab = xlab, ylab = ylab)
 ```
 <center> __Figure 4__: Functional descriptive statistics: functional means and functional variances for each laboratory as well as the overall functional mean and the overall functional variance corresponding to the `TG` curves obtained from calcium oxalate. </center>
 
+<br>
+
 <p style="text-align:justify;"> Afterward, the qcdata object, corresponding to the `lab.qcdata()` class, is developed. The descriptive statistics information of the dataset can be summarized by using the `summary()` function. Figure 1, shows the results of all laboratories.</p>
 
 

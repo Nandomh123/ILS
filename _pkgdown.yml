@@ -67,7 +67,7 @@ navbar:
       - text: Univariate Data Analysis
         href: articles/univariante.html
       - text: Functional Data Analysis (FDA)
-        href: articles/univariante.html
+        href: articles/FDA.html
       - text: Conclusions
         href: articles/Conslusions.html
     - text: Scientific articles
