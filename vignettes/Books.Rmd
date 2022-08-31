@@ -57,6 +57,17 @@ knitr::opts_chunk$set(
 
 <br>
 
+```{r eval=FALSE}
+@article{sanchez2019nuevas,
+  title={Nuevas Aportaciones del An{\'a}lisis de Datos Funcionales en el Control Estad{\i}stico de Procesos},
+  author={S{\'a}nchez, Miguel Flores},
+  year={2019}
+}
+```
+<br>
+
+
+
 # `r colorize("New methodology for the detection of not consistent results in interlaboratory studies using functional data analysis","#1CA666")`
 
 <br>
@@ -68,6 +79,18 @@ knitr::opts_chunk$set(
 ### `r colorize("Cite","#1CA666")`
 
 <p style="text-align:justify;">Solorzano Maya, C. I., & Moreno Armijos, G. C. (2022). New methodology for the detection of inconsistent results in interlaboratory studies using functional data analysis (Bachelor's thesis, Quito: EPN, 2022).</p>
+
+<br>
+
+```{r eval=FALSE}
+@mastersthesis{moreno2022nueva,
+  title={Nueva metodolog{\'\i}a para la detecci{\'o}n de resultados inconsistentes en estudios interlaboratorios utilizando an{\'a}lisis de datos funcionales.},
+  author={Moreno Armijos, G{\'e}nesis Chabeli},
+  type={{B.S.} thesis},
+  year={2022},
+  school={Quito: EPN, 2022.}
+}
+```
 
 <br>
 
@@ -83,4 +106,12 @@ knitr::opts_chunk$set(
 
 <p style="text-align:justify;">BOSSANO CAVE, J. R. (2019). VICE-RECTORATE FOR RESEARCH, INNOVATION AND TECHNOLOGY TRANSFER.</p>
 
+<br>
 
+```{r eval=FALSE}
+@article{bossano2019vicerrectorado,
+  title={VICERRECTORADO DE INVESTIGACION, INNOVACION Y TRANSFERENCIA DE TECNOLOGIA},
+  author={BOSSANO CUEVA, JOS{\'E} ROBERTO},
+  year={2019}
+}
+```
