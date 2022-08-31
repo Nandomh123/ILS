@@ -43,13 +43,6 @@ library(vembedr)
 ```{r warning=FALSE,echo=FALSE}
 embed_youtube('mhUJh5Wz2X8', width=775, height=550)
 ```
-
 <br>
-
-# `r colorize("Statistical quality control with QCR and ILS packages.","#1CA666")`
-
-
-
-# `r colorize("Statistical quality control with QCR and ILS packages.","#1CA666")`
 
 
