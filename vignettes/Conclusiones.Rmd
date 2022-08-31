@@ -43,8 +43,9 @@ knitr::opts_chunk$set(
 
 <br>
 
-# `r colorize("Control estadístico de la calidad mediante las librerías qcr, ILS y fda.qc","#1CA666")`
+# `r colorize("Statistical quality control using the libraries qcr, ILS and fda.qc","#1CA666")`
 
+<br>
 
 <object data="control_estadistico_de_la_calidad_mediante_las_librerias_qcr_ils_y_fda.qc.pdf" width=775, height=550></object>
 
