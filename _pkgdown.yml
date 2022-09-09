@@ -9,9 +9,6 @@ template:
 
 
 
-development:
-  mode: auto
-
 reference:
   - title: "Interlaboratory Studies (ILS)"
     contents:
@@ -20,14 +17,13 @@ reference:
     desc: >
      The ILS package .
     contents:
-      - cochran.test
-      - func.ils.formula
-      - grubbs.test
-      - h.qcs
-      - k.qcs
-      - lab.aov
       - lab.qcdata
       - lab.qcs
+      - h.qcs
+      - k.qcs
+      - cochran.test
+      - grubbs.test
+      - lab.aov
       - plot.lab.qcdata
       - plot.lab.qcs
 
@@ -35,21 +31,28 @@ reference:
     desc: >
      FDA
     contents:
-      - boot.sim.set
       - ils.fqcdata
       - ils.fqcs
       - mandel.fqcs
       - outliers.ils
+      - boot.sim.set
+      - func.ils.formula
       - plot.ils.fqcdata
       - plot.ils.fqcs
       - plot.mandel.fqcs
 
-  - title: "Datasets"
-    desc: "Databases used in the package"
+  - title: "Databases used in the package"
+  - title: "Univariate Data Analysis"
+    desc: >
+     Clinical study of blood glucose measurement.
     contents:
-      - DSC
       - Glucose
+  - title: "Functional Data Analysis"
+    desc: >
+      Characterization of materials by thermogravimetric analysis.
+    contents:
       - TG
+      - DSC
       - IDT
 
 navbar:

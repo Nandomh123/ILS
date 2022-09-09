@@ -1,0 +1,105 @@
+---
+title: "Corrección de la literatura de las funciones"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Corrección de la literatura de las funciones}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, include = FALSE}
+library(ILS)
+```
+
+# Univariate Data Analysis
+
+## `lab_qcdata()`
+
+* __title__: Quality Control Data.
+
+* __Usage__:
+
+```{r eval=FALSE}
+lab.qcdata(
+  data,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL
+)
+
+```
+* __Arguments__:
+
+  - __data__: A matrix or data-frame, where the first column must contain the response variable, then it must contain the repetition rate for each laboratory, the index of the material with which the test was performed and the index of the laboratory where the procedure was performed.
+  
+  - __var.index__: A scalar with the column number corresponding to the observed variable (the critical to quality variable). Alternatively, a string with the name of a quality variable can be provided.
+  
+  - __replicate.index__: A scalar with the column number corresponding to the index each replicate.
+
+  - __material.index__: A scalar corresponding to the replicated number.
+
+  - __laboratory.index__: A scalar that defines the index number of each laboratory.
+
+  - __data.name__: Optional. A string specifying the name of the variable which appears on the plots. If name is not provided, it is retrieved from the object.
+  
+* __Example__
+
+```{r}
+library(ILS)
+data(Glucose)
+Glucose.qcdata <- lab.qcdata(Glucose)
+str(Glucose.qcdata)
+summary(Glucose.qcdata)
+```
+
+## `lab.qcs()`
+
+* __title__: Quality Control Statistics.
+
+* __Usage__:
+
+```{r eval=FALSE}
+lab.qcs(x, ...)
+
+# S3 method for lab.qcs
+print(x, ...)
+
+# S3 method for lab.qcs
+summary(object, ...)
+```
+* __Arguments__:
+
+  - __x__: An object of class lab.qcdata (Quality Control Data).
+  
+  - __$\ldots$__: Arguments passed to or from methods.
+  
+  - __object__: A object of class lab.qcs (Quality Control Statistics)  for which a summary is desired.
+  
+* __Example__
+
+```{r}
+library(ILS)
+data(Glucose)
+Glucose.qcdata <- lab.qcdata(Glucose)
+str(Glucose.qcdata)
+Glucose.qcs <- lab.qcs(Glucose.qcdata)
+str(Glucose.qcs)
+summary(Glucose.qcs)
+
+```
+
+
+
+
+
+
+
