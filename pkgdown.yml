@@ -7,10 +7,11 @@ articles:
   Books: Books.html
   Conclusiones: Conclusiones.html
   Conferencia: Conferencia.html
+  Correccion: Correccion.html
   FDA: FDA.html
   InterlaboratoryStudies: InterlaboratoryStudies.html
   univariante: univariante.html
-last_built: 2022-08-31T03:47Z
+last_built: 2022-09-09T00:51Z
 urls:
   reference: https://nandomh123.github.io/ILS/reference
   article: https://nandomh123.github.io/ILS/articles

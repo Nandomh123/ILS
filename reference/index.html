@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">ILS</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,19 +101,15 @@
 
       <dl><dt>
           
-          <code><a href="cochran.test.html">cochran.test()</a></code> 
+          <code><a href="lab.qcdata.html">lab.qcdata()</a></code> 
         </dt>
-        <dd>Function to compute the Grubbs test statistic.</dd>
+        <dd>Quality Control Data</dd>
       </dl><dl><dt>
           
-          <code><a href="func.ils.formula.html">func.ils.formula()</a></code> 
+          <code><a href="lab.qcs.html">lab.qcs()</a></code> <code><a href="lab.qcs.html">print(<i>&lt;lab.qcs&gt;</i>)</a></code> <code><a href="lab.qcs.html">summary(<i>&lt;lab.qcs&gt;</i>)</a></code> 
         </dt>
-        <dd>Descriptive measures for functional data.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="grubbs.test.html">grubbs.test()</a></code> 
-        </dt>
-        <dd>Function to compute the Grubbs test statistic.</dd>
+        <dd>Create an object of class 'lab.qcs' to perform statistical quality control.
+This function is used to compute statistics required for plotting Statitics</dd>
       </dl><dl><dt>
           
           <code><a href="h.qcs.html">h.qcs()</a></code> 
@@ -126,20 +122,19 @@
         <dd>Function to calcute the Mandel's k statistic</dd>
       </dl><dl><dt>
           
+          <code><a href="cochran.test.html">cochran.test()</a></code> 
+        </dt>
+        <dd>Function to compute the Grubbs test statistic.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="grubbs.test.html">grubbs.test()</a></code> 
+        </dt>
+        <dd>Function to compute the Grubbs test statistic.</dd>
+      </dl><dl><dt>
+          
           <code><a href="lab.aov.html">lab.aov()</a></code> 
         </dt>
         <dd>Function to compute the AOV</dd>
-      </dl><dl><dt>
-          
-          <code><a href="lab.qcdata.html">lab.qcdata()</a></code> 
-        </dt>
-        <dd>Quality Control Data</dd>
-      </dl><dl><dt>
-          
-          <code><a href="lab.qcs.html">lab.qcs()</a></code> <code><a href="lab.qcs.html">print(<i>&lt;lab.qcs&gt;</i>)</a></code> <code><a href="lab.qcs.html">summary(<i>&lt;lab.qcs&gt;</i>)</a></code> 
-        </dt>
-        <dd>Create an object of class 'lab.qcs' to perform statistical quality control.
-This function is used to compute statistics required for plotting Statitics</dd>
       </dl><dl><dt>
           
           <code><a href="plot.lab.qcdata.html">plot(<i>&lt;lab.qcdata&gt;</i>)</a></code> 
@@ -163,11 +158,6 @@ This function is used to compute statistics required for plotting Statitics</dd>
 
       <dl><dt>
           
-          <code><a href="boot.sim.set.html">boot.sim.set()</a></code> 
-        </dt>
-        <dd>Bootstrap samples of a functional statistic</dd>
-      </dl><dl><dt>
-          
           <code><a href="ils.fqcdata.html">ils.fqcdata()</a></code> 
         </dt>
         <dd>Functional Quality Control Data</dd>
@@ -188,6 +178,16 @@ This function is used to compute statistics required for plotting Statitics</dd>
         <dd>Detecting outliers for functional dataset</dd>
       </dl><dl><dt>
           
+          <code><a href="boot.sim.set.html">boot.sim.set()</a></code> 
+        </dt>
+        <dd>Bootstrap samples of a functional statistic</dd>
+      </dl><dl><dt>
+          
+          <code><a href="func.ils.formula.html">func.ils.formula()</a></code> 
+        </dt>
+        <dd>Descriptive measures for functional data.</dd>
+      </dl><dl><dt>
+          
           <code><a href="plot.ils.fqcdata.html">plot(<i>&lt;ils.fqcdata&gt;</i>)</a></code> 
         </dt>
         <dd>Plotting method for 'ils.fqcdata' objects</dd>
@@ -202,9 +202,15 @@ This function is used to compute statistics required for plotting Statitics</dd>
         </dt>
         <dd>Plotting method for 'mandel.fqcs' objects</dd>
       </dl></div><div class="section level2">
-      <h2 id="datasets">Datasets<a class="anchor" aria-label="anchor" href="#datasets"></a></h2>
+      <h2 id="databases-used-in-the-package">Databases used in the package<a class="anchor" aria-label="anchor" href="#databases-used-in-the-package"></a></h2>
       
-      <p class="section-desc"></p><p>Databases used in the package</p>
+      
+
+      
+    </div><div class="section level2">
+      <h2 id="univariate-data-analysis-1">Univariate Data Analysis<a class="anchor" aria-label="anchor" href="#univariate-data-analysis-1"></a></h2>
+      
+      <p class="section-desc"></p><p>Clinical study of blood glucose measurement.</p>
 
       
     </div><div id="" class="section level2">
@@ -214,19 +220,30 @@ This function is used to compute statistics required for plotting Statitics</dd>
 
       <dl><dt>
           
-          <code><a href="DSC.html">DSC</a></code> 
-        </dt>
-        <dd>Differential Scanning Calorimetry curves</dd>
-      </dl><dl><dt>
-          
           <code><a href="Glucose.html">Glucose</a></code> 
         </dt>
         <dd>Glucose in Serum</dd>
-      </dl><dl><dt>
+      </dl></div><div class="section level2">
+      <h2 id="functional-data-analysis">Functional Data Analysis<a class="anchor" aria-label="anchor" href="#functional-data-analysis"></a></h2>
+      
+      <p class="section-desc"></p><p>Characterization of materials by thermogravimetric analysis.</p>
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
           <code><a href="TG.html">TG</a></code> 
         </dt>
         <dd>Thermogravimetry curves</dd>
+      </dl><dl><dt>
+          
+          <code><a href="DSC.html">DSC</a></code> 
+        </dt>
+        <dd>Differential Scanning Calorimetry curves</dd>
       </dl><dl><dt>
           
           <code><a href="IDT.html">IDT</a></code> 
